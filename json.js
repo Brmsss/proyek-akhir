@@ -4,7 +4,7 @@ async function getData() {
       const hash = window.location.hash;
       const queryString = window.location.search;
 
-      let isIndexPage = pathname === "/proyek-akhir/index.html";
+      let isIndexPage = pathname === "/proyek-akhir/" || pathname === "/proyek-akhir/index.html";
       let isPesanPage = pathname === "/proyek-akhir/pesan.html";
 
       if (isIndexPage || queryString !== "" || hash !== "") {
